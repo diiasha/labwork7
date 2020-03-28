@@ -4,7 +4,7 @@ flag = False
 pygame.init() 
 screen = pygame.display.set_mode((720, 480))
 back = pygame.Surface((720, 480)) 
-back.fill((162, 250, 248))                
+back.fill((0,0,0))                
 back = back.convert()       
 
 for point in range(0,481,48): 
